@@ -1,0 +1,126 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "callback",
+            "base": "",
+            "fields": [
+                {
+                    "name": "queryId",
+                    "type": "checksum256"
+                },
+                {
+                    "name": "result",
+                    "type": "bytes"
+                },
+                {
+                    "name": "proof",
+                    "type": "bytes"
+                }
+            ]
+        },
+        {
+            "name": "deleteall",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "deposits",
+            "base": "",
+            "fields": [
+                {
+                    "name": "depositer",
+                    "type": "name"
+                },
+                {
+                    "name": "stake_amount",
+                    "type": "int64"
+                }
+            ]
+        },
+        {
+            "name": "execquery",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "modsettings",
+            "base": "",
+            "fields": [
+                {
+                    "name": "unstaketime",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "settings",
+            "base": "",
+            "fields": [
+                {
+                    "name": "unstaketime",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "withdraw",
+            "base": "",
+            "fields": [
+                {
+                    "name": "withdrawer",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "callback",
+            "type": "callback",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deleteall",
+            "type": "deleteall",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "execquery",
+            "type": "execquery",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "modsettings",
+            "type": "modsettings",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdraw",
+            "type": "withdraw",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "deposits",
+            "type": "deposits",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "settings",
+            "type": "settings",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}

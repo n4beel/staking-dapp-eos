@@ -1,0 +1,27 @@
+{
+  "name": "stakingdapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n4beel/tictactoe-eosio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n4beel/tictactoe-eosio/issues"
+  },
+  "homepage": "https://github.com/n4beel/tictactoe-eosio#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eosjs": "^20.0.0",
+    "json": "^11.0.0",
+    "mocha": "^10.1.0",
+    "node-fetch": "^3.3.0"
+  }
+}
